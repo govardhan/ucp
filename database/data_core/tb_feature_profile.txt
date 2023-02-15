@@ -1,0 +1,23 @@
+0	vt_post	.*	MAX_RECORD_DURATION	30	NULL
+0	vt_post	.*	MAX_SILENCE_DURATION	5	NULL
+0	vt_post	.*	RECORD_DTMF_ABORT	0123456789*#	NULL
+0	vt_post	.*	MAX_PREVIEWS	2	NULL
+0	vt_post	.*	MAX_RERECORDS	2	NULL
+0	vt_listen	.*	wait_time_after_play	2000	silence after playing tweet in millisec
+0	vt_listen	.*	tweet_options	1=like,2=reply,3=comments,4=share,5=next,6=save,7=del	options while listening to tweet
+0	vt_listen	.*	tweet_option_dtmf	1234567	dtmf for tweet option
+0	vt_listen	.*	max_reply_duration	30	max reply duration while listening
+0	vt_listen	.*	max_reply_silence_duration	5	max reply silence duration while listening
+0	vt_listen	.*	reply_dtmf_abort	#	bargin dtmf for reply
+0	vt_listen	.*	comment_abort_dtmf	#	dtmf to abort comments
+0	vt_listen	.*	wait_time_after_comment	1000	wait time afer listen to comment
+0	vt_disc	.*	tweeter_menu_size	5	how many tweeters to play in discovery menu
+0	vt_disc	.*	wait_time_after_prompt	1000	Wait time after playing tweeter name
+0	vt_settings	.*	max_menu_visits	3	how many times user can brose main menu
+0	vt_settings	.*	owntweet_option_dtmf	123	dtmf option after playing owntweet share
+0	vt_settings	.*	wait_time_after_playing_owntweet	123	wait time after playing owntweet for dtmf
+0	vt_settings	.*	owntweet_option_dtmf_action	1=share,2=update_tag,3=delete	dtmf action map
+0	vt_settings	.*	owntweet_share_count	10	number of non-direct followers to share tweet
+0	vt_settings	.*	name_max_record_duration	4	voice name record duration
+0	vt_settings	.*	name_max_silence_duration	4	voice silence detection duration
+0	vt_settings	.*	name_dtmf_abort	#	dtmf abort

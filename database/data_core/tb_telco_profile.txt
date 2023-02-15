@@ -1,0 +1,9 @@
+1	91.BH	lang	arabic	language settings
+2	91.BH	mt_sms_notify_interface	smpp	sms notification interface
+3	91.BH	mo_sms_interface	smpp	mo sms interface
+4	91.BH	num_resol_interface	local	how user numbers to be mapped to telco_id
+5	91.BH	port_in_out	0	if num_resol_interface local port inout exists
+6	91.BH	event_charge_interface	http	event based charging interface
+7	91.BH	sub_charge_interface	http	subscription charging interface
+8	91.BH	unsub_charge_interface	http	unsubscription charging interface
+9	91.BH	renew_charge_interface	http	renewal charging interface

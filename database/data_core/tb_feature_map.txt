@@ -1,0 +1,5 @@
+1	(440)	\\1	.*	ivr	vt_allin1	\N
+2	(441)	\\1	.*	ivr	vt_post	\N
+3	(442)	\\1	.*	ivr	vt_listen	\N
+4	(444)	\\1	.*	ivr	vt_disc	\N
+5	(\\*)(\\d{10,15})	\\2	.*	ivr	vt_follow	\N

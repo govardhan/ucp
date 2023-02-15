@@ -1,0 +1,95 @@
+0	.*	welcome	welcome2vtweet	0	0123456789*#	0	NULL	welcome to voice tweet
+0	.*	invalidsrc	invalidsrc	0	0123456789*#	0	NULL	Sorry we are not able to understand your phone number
+0	.*	langselect	langselect	3000	12	2	1=arabic,2=eng	press 1 for arabic, press 2 for english
+0	.*	thankyou	vtweetthanks	0	0123456789*#	0	NULL	Thank you for using voice tweet
+0	.*	langselect_invalid_option	langselect_invalid_option	0	0123456789*#	0	NULL	please choose valid option
+0	.*	langset	langset	0	0123456789*#	0	NULL	your language has been set
+0	.*	invaliddialednum	invaliddialednum	0	0123456789*#	0		The number you have dialed is incorrect.
+0	.*	vt_allin1_mainmenu_invalid_option	vt_allin1_mainmenu_invalid_option	0	0123456789*#	0		please choose valid option
+0	.*	vt_allin1_mainmenu	vt_allin1_mainmenu	3000	12345	2	1=vt_disc,2=vt_listen,3=vt_post,4=vt_follow,5=vt_settings	press 1 to discover new tweeters, press 2 to listen to voice tweets, press 3 to record your own tweet  , press 4 to follow friend, press 5 for settings
+0	.*	vt_post_instruction	vt_post_instruction	0	0123456789*#	0		record your voice tweet after beep
+0	.*	vt_post_beep	vt_post_beep	0	0123456789*#	0		<beep>
+0	.*	vt_post_hint	vt_post_hint	3000	1234	2	1=post,2=preview,3=vt_post,4=cancel	press 1 to post, 2 to preview, 3 to re-record, 4 to cancel
+0	.*	vt_post_hint_invalid_option	vt_post_hint_invalid_option	0	0123456789*#	0		please choose valid option
+0	.*	vt_post_tagging	vt_post_tagging	3000	123	2	1=all,2=friends=3=family	Press 1 to tag this tweet to all, press 2 to friends, press 3 for family and press 4 for friends and family
+0	.*	vt_post_tagging_invalid_option	vt_post_tagging_invalid_option	0	0123456789*#	0		please choose valid option
+0	.*	vt_post_tagged	vt_post_tagged	0	0123456789*#	0		You voice tweet tagged to your choice. All the followers will be notfied via SMS
+0	.*	vt_post_cancelled	vt_post_cancelled	0	0123456789*#	0		Okay, you have discarded your voice tweet
+0	.*	vt_post_max_retires	vt_post_max_retires	0	0123456789*#	0		Sorry, you have exceeded maximum retries
+0	.*	vt_follow_enter_tweeter_num	vt_follow_enter_tweeter_num	5000	#	2		Enter tweeter phone number you wish to follow and listen. press # at the end
+0	.*	vt_follow_enter_tweeter_num_invalid_option	vt_follow_enter_tweeter_num_invalid_option	0	0123456789*#	0		Sorry, you didn't enter tweeter phone number
+0	.*	vt_follow_invalid_tweeter	vt_follow_invalid_tweeter	0	0123456789*#	0		Sorry there is no valid tweeter matching with the number you entered
+0	.*	vt_follow_dormant_tweeter	vt_follow_dormant_tweeter	0	0123456789*#	0		There is no active tweeter with this number. You will be notified via SMS when this tweeter start tweeting
+0	.*	vt_follow_community_tweeter	vt_follow_community_tweeter	3000	1	2	1=follow	To follow and receive tweets from this tweeter press 1.
+0	.*	vt_follow_community_tweeter_invalid_option	vt_follow_community_tweeter_invalid_option	0	0123456789*#	0		Please press 1 to follow
+0	.*	vt_follow_community_tweeter_confirm	vt_follow_community_tweeter_confirm	0	0123456789*#	0		Congrats, you are now following this tweeter. You will get SMS notification whenever this tweeter tweets
+0	.*	vt_follow_community_tweeter_barred	vt_follow_community_tweeter_barred	0	0123456789*#	0		Sorry, tweeter you are trying to follow is not available for now. Please try later.
+0	.*	vt_follow_premium_tweeter	vt_follow_premium_tweeter	3000	1	2	1=follow	To subscribe and receive tweets from this celebrity press 1.
+0	.*	vt_follow_premium_tweeter_invalid_option	vt_follow_premium_tweeter_invalid_option	0	0123456789*#	0		Please press 1 to subscribe
+0	.*	vt_follow_premium_tweeter_confirm_tentative	vt_follow_premium_tweeter_confirm_tentative	0	0123456789*#	0		Thank you, we will confirm your subscription via SMS
+0	.*	vt_follow_premium_tweeter_trylater	vt_follow_premium_tweeter_trylater	0	0123456789*#	0		Al right, you can subscribe this celebrity any time 
+0	.*	vt_follow_premier_tweeter_barred	vt_follow_premier_tweeter_barred	0	0123456789*#	0		Sorry, tweeter you are trying to follow is not available for now. Please try later.
+0	.*	vt_follow_tweets_intro	vt_follow_tweets_intro	0	0123456789*#	0		You have voice tweets available to listen from this tweeter
+0	.*	vt_follow_notweets	vt_follow_notweets	0	0123456789*#	0		Sorry no voice tweets available form this tweeter
+0	.*	vt_follow_nomore_tweets	vt_follow_nomore_tweets	0	0123456789*#	0		No more voice tweets
+0	.*	vt_listen_notweets	vt_listen_notweets	0	0123456789*#	0		You have no voice tweets in your inbox to listen
+0	.*	vt_listen_intro	vt_listen_intro	0	0123456789*#	0	1=like,2=reply,3=rep2tweet,4=share,5=next,6=save,7=del	while playing vtweet press 1 to like 2 to comment 3 to listen commens from all users 4 to share 5 to next 6 to save 7 to delete
+0	.*	vt_listen_nomore_tweets	vt_listen_nomore_tweets	0	0123456789*#	0		No more voice tweets
+0	.*	vt_listen_tweet_invalid_option	vt_listen_tweet_invalid_option	0	0123456789*#	0		You have entered invalid option,  press 1 to like 2 to comment 3 to listen commens from all users 4 to share 5 to next 6 to save 7 to delete
+0	.*	vt_listen_liked	vt_listen_liked	0	0123456789*#	0		<claps> cool, thank you for your like vote
+0	.*	vt_listen_reply_intro	vt_listen_reply_intro	0	0123456789*#	0		record your reply after beep and press # to end
+0	.*	vt_listen_reply_beep	vt_listen_reply_beep	0	0123456789*#	0		<beep>
+0	.*	vt_listen_reply_confirm	vt_listen_reply_confirm	0	0123456789*#	0		Thank you, you have successfully replied to the voice tweet
+0	.*	vt_listen_comments_intro	vt_listen_comments_intro	0	0123456789*#	0		you will listen all the replies to this voice tweet. Press # to abort and goback to listen to voice tweets
+0	.*	vt_listen_nocomments	vt_listen_nocomments	0	0123456789*#	0		Sorry no replies available to this voice tweet
+0	.*	vt_listen_nomore_comments	vt_listen_nomore_comments	0	0123456789*#	0		No more replies to this voice tweet. Lets listen to some more voice tweets
+0	.*	vt_listen_comments_aborted	vt_listen_comments_aborted	0	0123456789*#	0		You have aborted to listen replies to this voice tweet. Lets listen to some more voice tweets
+0	.*	vt_listen_enterphnum2share	vt_listen_enterphnum2share	5000	#	2		Enter phone number to share this voice tweet
+0	.*	vt_listen_enterphnum2share_invalid_option	vt_listen_enterphnum2share_invalid_option	0	0123456789*#	0		Sorry, please enter phone number
+0	.*	vt_listen_tweet_shared	vt_listen_tweet_shared	0	0123456789*#	0		Cool, you have successfully shared the voice tweet you listed
+0	.*	vt_listen_invalid_phnum	vt_listen_invalid_phnum	0	0123456789*#	0		Sorry, the phone number you entered is not valid
+0	.*	vt_listen_saved	vt_listen_saved	0	0123456789*#	0		Cool, you have saved your voice tweet
+0	.*	vt_listen_deleted	vt_listen_deleted	0	0123456789*#	0		Okay, you have deleted your voice tweet
+0	.*	vt_disc_intro	vt_disc_intro	0	0123456789*#	0		Choose your favourite celebrity from the menu and press corresponding digit to follow them
+0	.*	vt_disc_no_tweeters	vt_disc_no_tweeters	0	0123456789*#	0		Sorry no premium tweeters available to discover
+0	.*	vt_disc_press_digit_0	vt_disc_press_digit_0	200	0123456789*#	0		press 0 to follow
+0	.*	vt_disc_press_digit_1	vt_disc_press_digit_1	200	0123456789*#	0		press 1 to follow
+0	.*	vt_disc_press_digit_2	vt_disc_press_digit_2	200	0123456789*#	0		press 2 to follow
+0	.*	vt_disc_press_digit_3	vt_disc_press_digit_3	200	0123456789*#	0		press 3 to follow
+0	.*	vt_disc_press_digit_4	vt_disc_press_digit_4	200	0123456789*#	0		press 4 to follow
+0	.*	vt_disc_press_digit_5	vt_disc_press_digit_5	200	0123456789*#	0		press 5 to follow
+0	.*	vt_disc_press_digit_6	vt_disc_press_digit_6	200	0123456789*#	0		press 6 to follow
+0	.*	vt_disc_press_digit_7	vt_disc_press_digit_7	200	0123456789*#	0		press 7 to follow
+0	.*	vt_disc_press_digit_8	vt_disc_press_digit_8	200	0123456789*#	0		press 8 to follow
+0	.*	vt_disc_press_digit_9	vt_disc_press_digit_9	200	0123456789*#	0		press 9 to follow
+0	.*	vt_disc_press_digit_invalid_option	vt_disc_press_digit_invalid_option	0	0123456789*#	0		<500 ms silence>
+0	.*	vt_disc_tweeter_invalid_option	vt_disc_tweeter_invalid_option	0	0123456789*#	0		<500 ms silence>
+0	.*	vt_disc_follow_confirm_tentative	vt_disc_follow_confirm_tentative	0	0123456789*#	0		Thank you, we will confirm your subscription via SMS
+0	.*	vt_disc_nomore_tweeters	vt_disc_nomore_tweeters	0	0123456789*#	0		No more premium tweeters avialable
+0	.*	vt_disc_try_again	vt_disc_try_again	0	0123456789*#	0		You can discover and follow exciting premium tweeters anytime
+0	.*	vt_settings_menu	vt_settings_menu	3000	1234	2	1=owntweet,2=name,3=privacy,4=lang	press 1 to listen to your own tweets, 2 to preview & re-record your name 3 to change privacy 4 to change lang
+0	.*	vt_settings_menu_invalid_option	vt_settings_menu_invalid_option	0	0123456789*#	0		Please choose valid option
+0	.*	vt_settings_try_again	vt_settings_try_again	0	0123456789*#	0		Okay, You can change your settings anytime. Try again
+0	.*	vt_settings_max_retries	vt_settings_max_retries	0	0123456789*#	0		You have exceed maximum retries in settings menu
+0	.*	vt_settings_owntweet_notweets	vt_settings_owntweet_notweets	0	0123456789*#	0		you do not have any voice tweets recorded. Hangup and dial 441 to record.
+0	.*	vt_settings_owntweet_intro	vt_settings_owntweet_intro	0	0123456789*#	0		during or at the end of your voice tweet, you can press 1 to share your voice tweet to 10  users, 2 to update tag press 3 to delete
+0	.*	vt_settings_owntweet_shared	vt_settings_owntweet_shared	0	0123456789*#	0		Cool, you have shared your voice tweet
+0	.*	vt_settings_owntweet_update_tag_menu	vt_settings_owntweet_update_tag_menu	3000	1234	2	1=all,2=friends=3=family, 4=friendsfamily	Press 1 to tag this tweet to all, press 2 to friends, press 3 for family and press 4 for friends and family
+0	.*	vt_settings_owntweet_tag_updated	vt_settings_owntweet_tag_updated	0	0123456789*#	0		Your voice tweet tagged to your selection
+0	.*	vt_settings_owntweet_update_tag_later	vt_settings_owntweet_update_tag_later	0	0123456789*#	0		You can dial in and add tags to your voice tweet anytime
+0	.*	vt_settings_owntweet_delete	vt_settings_owntweet_delete	3000	1	1	1=del	Press 1 to delete this voice tweet
+0	.*	vt_settings_privacy_try_again	vt_settings_privacy_try_again	0	0123456789*#	0		Your voice tweet has been deleted
+0	.*	vt_settings_privacy_2_private	vt_settings_privacy_2_private	3000	1	1	1=private	Press 1 to set your voice tweet account to private.
+0	.*	vt_settings_privacy_2_private_invalid_option	vt_settings_privacy_2_private_invalid_option	0	0123456789*#	0		Please press 1
+0	.*	vt_settings_privacy_2_public	vt_settings_privacy_2_public	3000	1	1	1=public	Press 1 to set your voice tweet account to public
+0	.*	vt_settings_privacy_2_public_invalid_option	vt_settings_privacy_2_public_invalid_option	0	0123456789*#	0		Please press 1
+0	.*	vt_settings_langselect	vt_settings_langselect	3000	12	2	1=arabic,2=eng	press 1 for arabic, press 2 for english
+0	.*	vt_settings_name_notfound	vt_settings_name_notfound	0	0123456789*#	0		You did not record your voice name
+0	.*	vt_settings_name_rerecord	vt_settings_name_rerecord	3000	1	1	1=name	Press 1 to record your voice name
+0	.*	vt_settings_name_rerecord_invalid_option	vt_settings_name_rerecord_invalid_option	0	0123456789*#	0		please choose valid option
+0	.*	vt_settings_name_rerecord_intro	vt_settings_name_rerecord_intro	0	0123456789*#	0		record your voice name and press # to end
+0	.*	vt_settings_name_rerecord	vt_settings_name_rerecord	3000	1	1		To re-record your voice name press 1
+0	.*	vt_settings_name_rerecord_invalid_option	vt_settings_name_rerecord_invalid_option	0	0123456789*#	0		please choose valid option
+0	.*	vt_settings_name_record_try_later	vt_settings_name_record_try_later	0	0123456789*#	0		You can dial in and  record your voice name any time
+0	.*	vt_settings_name_beep	vt_settings_name_beep	0	0123456789*#	0		<beep>
+0	.*	vt_settings_record_name_set	vt_settings_record_name_set	0	0123456789*#	0		Your voice name has set

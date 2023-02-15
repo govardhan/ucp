@@ -1,0 +1,7 @@
+recursive-include utils *.sh
+graft conf
+graft database
+#prune test
+prune conf/sys
+include MANIFEST.in
+

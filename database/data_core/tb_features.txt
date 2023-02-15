@@ -1,0 +1,6 @@
+1	vt_allin1	vt	voice tweet
+2	vt_disc	vt	voice tweet
+3	vt_follow	vt	voice tweet
+4	vt_post	vt	voice tweet
+5	vt_listen	vt	voice tweet
+6	vt_settings	vt	voice tweet
